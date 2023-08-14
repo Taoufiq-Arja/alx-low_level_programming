@@ -2,7 +2,6 @@
 int main(void)
 {
 /*
- * main - this is a main function
  * main description: entry points of the program
  * return:0
  */
