@@ -1,15 +1,13 @@
-#include <stdio.h>
-
 int main(void)
 {
-int i;
+int num;
 
-for (i = 0; i <= 9; i++)
+for (num = 0; num <= 9; num++)
 {
-printf("%d", i);
+putchar(num + '0');
 }
 
-printf("\n");
+putchar('\n');
 
-return 0;
+return (0);
 }
