@@ -1,8 +1,4 @@
-#include <stdio.h>
-/**
-* main - this is a function 
-* description - the starting point of the program 
-*/
+#include <stdio>
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
