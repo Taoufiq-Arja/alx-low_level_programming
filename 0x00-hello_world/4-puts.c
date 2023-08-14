@@ -6,6 +6,6 @@ return (0);
 }
 /*
  * main - this is a main function
- * description: entry points of the program
+ * main description: entry points of the program
  * return:0
  */
