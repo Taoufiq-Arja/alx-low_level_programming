@@ -2,9 +2,14 @@
 
 int main(void)
 {
-	/*
-	 * The main function is where your program starts running. It's like the first step in a recipe. It does the work you tell it to do, and when it's done, it says if the scrip worked
-	 */
+	/**
+ * main - Entry point of the program
+ *
+ * Description: This function prints a specific string
+ * with a quotation mark at the beginning.
+ *
+ * Return: Always 0 (Success)
+ */
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
