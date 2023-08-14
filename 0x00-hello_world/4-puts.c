@@ -1,10 +1,10 @@
 #include <stdio.h>
+/**
+* main - this is a function 
+* description - the starting point of the program 
+*/
 int main(void)
 {
-/*
- * main description: entry points of the program
- * return:0
- */
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
