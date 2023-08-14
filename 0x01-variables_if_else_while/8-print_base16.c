@@ -7,20 +7,16 @@
 */
 int main(void)
 {
-char digit = '0';
+char digit;
 
-while (digit <= '9')
+for (digit = '0'; digit <= '9'; digit++)
 {
 putchar(digit);
-digit++;
 }
 
-char letter = 'a';
-
-while (letter <= 'f')
+for (digit = 'a'; digit <= 'f'; digit++)
 {
-putchar(letter);
-letter++;
+putchar(digit);
 }
 
 putchar('\n');
