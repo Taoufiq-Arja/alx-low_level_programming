@@ -1,0 +1,21 @@
+#include <unistd.h>
+/**
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
+
+# Check if the C file is provided as an environment variable
+if [ -z "$CFILE" ]; then
+echo "Error: CFILE environment variable not set."
+exit (1)
+fi
+
+# Get the base name of the C file without the extension
+CFILENAME=$(basename "$CFILE" .c)
+
+# Generate the assembly code using GCC
+gcc -S -masm=intel "$CFILE" -o "$CFILENAME.s"
+
+# Print a success message
+echo "Assembly code generated and saved to $CFILENAME.s"
